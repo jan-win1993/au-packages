@@ -4,19 +4,23 @@
     <id>openvpn-connect</id>
     <version>3.2.3</version>
     <title>OpenVPN Connect v3</title>
+    <packageSourceUrl>https://github.com/jan-win1993/au-packages/openvpn-connect</packageSourceUrl>
+    <summary>OpenVPN Connect is a free and full-featured VPN Client.</summary>
     <description>OpenVPN Connect is a free and full-featured VPN Client. It is the official Client for all OpenVPN Inc. solutions. Any other OpenVPN protocol compatible Server will work with it too.</description>
     <authors>OpenVPN Inc.</authors>
-    <owners>jwinkler</owners>
+    <owners>Jan Winkler</owners>
     <projectUrl>https://openvpn.net/</projectUrl>
     <tags>openvpn connect tunnel ssl</tags>
     <copyright>2021 OPENVPN INC. All Rights Reserved.</copyright>
     <licenseUrl>https://openvpn.net/license/</licenseUrl>
+    <bugTrackerUrl>https://community.openvpn.net/openvpn/report</bugTrackerUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <dependencies>
       <dependency id="chocolatey" version="0.9.10" />
     </dependencies>
     <releaseNotes>https://openvpn.net/vpn-server-resources/openvpn-connect-for-windows-change-log/</releaseNotes>
     <docsUrl>https://openvpn.net/community-resources/#documentation</docsUrl>
+    <iconUrl>https://github.com/jan-win1993/au-packages/openvpn-connect/icon/OpenVPNConnect.png</iconUrl>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
