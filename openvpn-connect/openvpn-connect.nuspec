@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>openvpn-connect</id>
-    <version>3.2.3.20210331</version>
+    <version>3.2.3</version>
     <title>OpenVPN Connect v3</title>
     <packageSourceUrl>https://github.com/jan-win1993/au-packages</packageSourceUrl>
     <summary>OpenVPN Connect is a free and full-featured VPN Client.</summary>
@@ -13,10 +13,10 @@
     <tags>openvpn connect tunnel ssl</tags>
     <copyright>2021 OPENVPN INC. All Rights Reserved.</copyright>
     <licenseUrl>https://openvpn.net/license/</licenseUrl>
-    <bugTrackerUrl>https://community.openvpn.net/openvpn/report</bugTrackerUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <dependencies>
       <dependency id="chocolatey" version="0.9.10" />
+      <dependency id="autohotkey.install" version="1.1.30.01" />
     </dependencies>
     <releaseNotes>https://openvpn.net/vpn-server-resources/openvpn-connect-for-windows-change-log/</releaseNotes>
     <docsUrl>https://openvpn.net/community-resources/#documentation</docsUrl>
