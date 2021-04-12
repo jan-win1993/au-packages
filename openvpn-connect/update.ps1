@@ -19,7 +19,7 @@ function global:au_GetLatest {
         URL64 = $url64
         Version = $version
     }
-}    
+}
 function global:au_SearchReplace {
     @{
         ".\tools\chocolateyInstall.ps1" = @{
