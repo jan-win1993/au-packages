@@ -8,6 +8,6 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 ; Windows Security - Would you like to install this device software?
 ; TAP-Windows Provider V9 Network adapters (OpenVPN Technologies, Inc.)
 winTitle1 = Windows%A_Space%Security
-WinWait, %winTitle1% ahk_class #32770, , 30
-Sleep, 1000
+WinWait, %winTitle1% ahk_class #32770, , 90
+Sleep, 3000
 ControlClick, Button1, %winTitle1% ahk_class #32770,,,NA
