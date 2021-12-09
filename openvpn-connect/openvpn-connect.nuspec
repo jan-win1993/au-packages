@@ -12,7 +12,7 @@
     <projectUrl>https://openvpn.net/</projectUrl>
     <tags>openvpn connect tunnel ssl</tags>
     <copyright>2021 OPENVPN INC. All Rights Reserved.</copyright>
-    <licenseUrl>https://openvpn.net/license/</licenseUrl>
+    <licenseUrl>https://github.com/OpenVPN/openvpn3/blob/master/LICENSE.rst</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <dependencies>
       <dependency id="chocolatey" version="0.9.10" />
