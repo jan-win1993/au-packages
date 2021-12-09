@@ -22,6 +22,7 @@
     <iconUrl>https://cdn.statically.io/gh/jan-win1993/au-packages/405fc0e5/icons/OpenVPNConnect.png</iconUrl>
   </metadata>
   <files>
+    <file src="legal\**" target="legal" />
     <file src="tools\**" target="tools" />
   </files>
 </package>
