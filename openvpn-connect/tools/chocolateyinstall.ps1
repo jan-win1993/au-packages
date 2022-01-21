@@ -6,7 +6,7 @@ $downloadArgs = @{
   fileType        = 'MSI'
   softwareName    = 'OpenVPN-Connect'
   url             = 'https://swupdate.openvpn.net/downloads/connect/openvpn-connect-3.3.3.2562_signed_x86.msi'
-  checksum        = 'bb8447a4776a5ddee887250274b9e0dec730a5ef1dcef6b284c18829e02ddf7e'
+  checksum        = 'd5797456bd50670c5fe077d1c07007e46d02bd209b53617a53fd42de32922d22'
   checksumType    = 'sha256'
   url64bit        = 'https://swupdate.openvpn.net/downloads/connect/openvpn-connect-3.3.3.2562_signed.msi'
   checksum64      = 'bb8447a4776a5ddee887250274b9e0dec730a5ef1dcef6b284c18829e02ddf7e'
@@ -49,3 +49,4 @@ $packageArgs = @{
 Install-ChocolateyInstallPackage @packageArgs
 
 Remove-Item -Force -EA 0 -Path $toolsDir\*.msi
+Remove-Item -Force -EA 0 -Path $toolsDir\*.cer

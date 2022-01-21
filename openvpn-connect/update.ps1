@@ -5,6 +5,10 @@ $url_part1 = 'https://swupdate.openvpn.net/downloads/connect/openvpn-connect-'
 $url_part3_32 = '_signed_x86.msi'
 $url_part3_64 = '_signed.msi'
 
+function global:au_BeforeUpdate() {
+     $Latest.Checksum32 = Get-RemoteChecksum $Latest.Url32
+     $Latest.Checksum64 = Get-RemoteChecksum $Latest.Url64
+  }
 function global:au_GetLatest {
     $download_page = Invoke-WebRequest -UseBasicParsing -Uri $change_log_url
     $regex_version = '3\.\d\.\d \(\d{3,4}\)'
@@ -36,4 +40,5 @@ function global:au_SearchReplace {
         }
     }
 }
-update
+# update -NoCheckChocoVersion -ChecksumFor none
+update -ChecksumFor none

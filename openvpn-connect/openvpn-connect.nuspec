@@ -15,7 +15,6 @@
     <licenseUrl>https://github.com/OpenVPN/openvpn3/blob/master/LICENSE.rst</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <dependencies>
-      <dependency id="chocolatey" version="0.9.10" />
     </dependencies>
     <releaseNotes>https://openvpn.net/vpn-server-resources/openvpn-connect-for-windows-change-log/</releaseNotes>
     <docsUrl>https://openvpn.net/community-resources/#documentation</docsUrl>
