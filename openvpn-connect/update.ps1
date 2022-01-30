@@ -12,6 +12,7 @@ function global:au_BeforeUpdate() {
 function global:au_GetLatest {
     $download_page = Invoke-WebRequest -UseBasicParsing -Uri $change_log_url
     $regex_version = '3\.\d\.\d \(\d{3,4}\)'
+    #$regex_version = '3\.3\.3 \(\d{3,4}\)'
     $versions = ([regex]$regex_version).Matches($download_page.Content)
     $most_recent_version = [String]$versions[0]
     $version = $most_recent_version.split()[0]
@@ -32,13 +33,13 @@ function global:au_SearchReplace {
             "(?i)(^\s*checksum\s*=\s*)('.*')"   = "`$1'$($Latest.Checksum32)'"
             "(?i)(^\s*checksum64\s*=\s*)('.*')" = "`$1'$($Latest.Checksum64)'"
         }
-        ".\legal\VERIFICATION.txt" = @{
-            "(?i)(\s+x32:).*"            = "`${1} $($Latest.URL32)"
-            "(?i)(\s+x64:).*"            = "`${1} $($Latest.URL64)"
-            "(?i)(checksum32:).*"        = "`${1} $($Latest.Checksum32)"
-            "(?i)(checksum64:).*"        = "`${1} $($Latest.Checksum64)"  
-        }
+       # ".\legal\VERIFICATION.txt" = @{
+       #     "(?i)(\s+x32:).*"            = "`${1} $($Latest.URL32)"
+       #     "(?i)(\s+x64:).*"            = "`${1} $($Latest.URL64)"
+       #     "(?i)(checksum32:).*"        = "`${1} $($Latest.Checksum32)"
+       #     "(?i)(checksum64:).*"        = "`${1} $($Latest.Checksum64)"
+       # }
     }
 }
-# update -NoCheckChocoVersion -ChecksumFor none
+#update -NoCheckChocoVersion -ChecksumFor none
 update -ChecksumFor none
