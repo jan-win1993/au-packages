@@ -20,7 +20,7 @@ environment:
   # Github token to commit pushed packages to repository
   github_user_repo: jan-win1993/au-packages
   github_api_key:
-    secure:  ERf2QQL1M4FsMHqRA4lPJc0f08CUvH2QLTRT50+z0qyo87xMGNdzWBL01lrYzojB#
+    secure: 3r0nh71ep0QuegvY+6qS5q9JOt/RCllAu2LgX7/GnbF74PuMrVm8ipFMb/8NwqqY
 
 
   # Mail credentials - for error notifications
