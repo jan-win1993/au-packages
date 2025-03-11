@@ -1,4 +1,4 @@
-import-module chocolatey-au
+import-module au
 
 $url_part1 = 'https://github.com/nextcloud-releases/talk-desktop/releases/download/'
 $releases = 'https://github.com/nextcloud-releases/talk-desktop/tags/'
