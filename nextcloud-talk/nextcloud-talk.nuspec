@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>nextcloud-talk</id>
+    <version>1.1.5</version>
+    <title>nextcloud-talk</title>
+    <authors>Grigorii K. Shartsev, Julian Petri, Maksim Sukharev</authors>
+    <owners>Jan Winkler</owners>
+    <licenseUrl>https://github.com/nextcloud/talk-desktop/blob/main/LICENSE</licenseUrl>
+    <projectUrl>https://nextcloud.com/de/talk/</projectUrl>
+    <iconUrl>https://cdn.statically.io/gh/nextcloud/talk-desktop/refs/heads/main/img/icons/icon.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Official Nextcloud Talk Desktop client</description>
+    <summary>Official Nextcloud Talk Desktop client</summary>
+    <releaseNotes>https://github.com/nextcloud/talk-desktop/releases</releaseNotes>
+    <copyright>Nextcloud GmbH</copyright>
+    <tags>nextcloud talk videocall</tags>
+    <projectSourceUrl>https://github.com/nextcloud/talk-desktop</projectSourceUrl>
+    <packageSourceUrl>https://github.com/jan-win1993/au-packages</packageSourceUrl>
+    <docsUrl>https://docs.nextcloud.com/server/latest/user_manual/en/talk/index.html/</docsUrl>
+  </metadata>
+</package>
