@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>openvpn-connect</id>
-    <version>3.7.3</version>
+    <version>3.8.0</version>
     <title>OpenVPN Connect v3</title>
     <packageSourceUrl>https://github.com/jan-win1993/au-packages</packageSourceUrl>
     <summary>OpenVPN Connect is a free and full-featured VPN Client.</summary>
