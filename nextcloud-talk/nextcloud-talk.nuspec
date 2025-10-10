@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
     <id>nextcloud-talk</id>
-    <version>1.2.6</version>
+    <version>2.0.2</version>
     <title>Nextcloud-Talk</title>
     <authors>Grigorii K. Shartsev, Julian Petri, Maksim Sukharev</authors>
     <owners>Jan Winkler</owners>
